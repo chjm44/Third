@@ -28,13 +28,32 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.comboBox1.Font = new System.Drawing.Font("Segoe Print", 10F);
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "게임",
+            "노래듣기",
+            "유튜브",
+            "그림",
+            "잠",
+            "멍때리기"});
+            this.comboBox1.Location = new System.Drawing.Point(68, 221);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(121, 31);
+            this.comboBox1.TabIndex = 0;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(651, 455);
+            this.Controls.Add(this.comboBox1);
             this.MinimizeBox = false;
             this.Name = "Form1";
             this.Text = "COMBOBOX FORM";
@@ -43,6 +62,8 @@
         }
 
         #endregion
+
+        private System.Windows.Forms.ComboBox comboBox1;
     }
 }
 
