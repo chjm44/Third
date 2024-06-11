@@ -72,6 +72,7 @@ namespace third
             TextForm1 = textBox2.Text;
 
             //Process.Start("https://www.google.com");
+
             Form2 form2 = new Form2();
             form2.Show();
             this.Hide();

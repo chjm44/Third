@@ -34,11 +34,13 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(293, 183);
+            this.label1.Font = new System.Drawing.Font("굴림", 50F);
+            this.label1.Location = new System.Drawing.Point(90, 187);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(59, 12);
+            this.label1.Size = new System.Drawing.Size(335, 67);
             this.label1.TabIndex = 0;
             this.label1.Text = "폼2입니다";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // Form2
             // 
@@ -48,6 +50,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Form2";
             this.Text = "d";
+            this.Load += new System.EventHandler(this.Form2_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
